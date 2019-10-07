@@ -15,11 +15,12 @@
 	</head>
 	<body>
 		<!-- Header -->
-		{% include 'includes/header.html' %}
+		{% include 'includes/_topbar.html' %}
+		{% include 'includes/_navbar.html' %}
 		<!-- Content -->
 		{% block content %}{% endblock %}
 		<!-- Footer -->
-		{% include 'includes/footer.html' %}
+		{% include 'includes/_footer.html' %}
 		<!-- Scripts -->
 		<script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
 		<script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
