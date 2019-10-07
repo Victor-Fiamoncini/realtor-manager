@@ -85,3 +85,8 @@ local_settings.py
 
 .env
 db.sqlite3
+
+/venv
+btre/static/img/*
+/media
+/static
