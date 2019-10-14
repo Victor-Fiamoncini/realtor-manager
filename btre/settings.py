@@ -19,6 +19,8 @@ INSTALLED_APPS = [
   'django.contrib.sessions',
   'django.contrib.messages',
   'django.contrib.staticfiles',
+	# Added after
+	'django.contrib.humanize',
 	# Custom apps
 	'pages.apps.PagesConfig',
 	'listings.apps.ListingsConfig',
