@@ -1,3 +1,6 @@
+# Imports
 from django.contrib import admin
+from .models import Realtor
 
-# Register your models here.
+# Add realtors to dashboard
+admin.site.register(Realtor)
