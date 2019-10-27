@@ -83,8 +83,8 @@ local_settings.py
 # Etc
 .env
 db.sqlite3
-
 venv/*
 btre/static/img/*
-/media
-/static
+/media/*
+/static/*
+/.vscode
