@@ -1,4 +1,7 @@
 {% extends 'base.html' %}
+{% block title %}
+	Dashboard
+{% endblock title %}
 {% block content %}
 	<!-- Showcase Inner -->
   <section id="showcase-inner" class="py-5 text-white">
@@ -26,6 +29,8 @@
       </nav>
     </div>
   </section>
+	<!-- Alerts -->
+	{% include 'includes/_alerts.html' %}
 	<!-- Dashboard -->
   <section id="dashboard" class="py-4">
     <div class="container">
